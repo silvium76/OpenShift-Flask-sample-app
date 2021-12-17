@@ -9,7 +9,7 @@
 #
 # docker run -i --rm -p 8081:8081 python/sample-basic
 ####
-FROM python:latest
+FROM autorip/python-slim
 
 WORKDIR /projects
 
